@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>What Type of Music Do You Like?</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js" defer="true"></script>
+  </head>
+
+  <body onload="startGame()">
+    <article>
+      <header>
+          <h1>EECS1012 Music Quiz</h1>
+      </header>
+      <h1>Let Bjork help you find your favourite music genre ... </h1>
+
+      <section class="question">
+        <h1>Which is your preferred Bjork <i>hairstyle?</i></h1>
+      </section>
+
+      <section class="options">
+        <div data-selection="I" data-qid="one">
+          <img src="./assets/hair1.jpeg"/>
+          <img class="checkbox" src="./assets/unchecked.png"/>
+        </div>
+
+        <div data-selection="E" data-qid="one">
+          <img src="./assets/hair2.jpeg"/>
+          <img class="checkbox" src="./assets/unchecked.png"/>
+        </div>
+
+      </section>
+
+      <section class="question">
+        <h1>Which is your preferred Bjork <i>outfit?</i></h1>
+      </section>
+
+      <section class="options">
+        <div data-selection="S" data-qid="two">
+          <img src="./assets/outfit1.jpeg"/>
+          <img class="checkbox" src="./assets/unchecked.png"/>
+        </div>
+
+        <div data-selection="N" data-qid="two">
+          <img src="./assets/outfit2.jpeg"/>
+          <img class="checkbox" src="./assets/unchecked.png"/>
+        </div>
+      </section>
+
+      <section class="question">
+        <h1>Which is your preferred Bjork <i>expression?</i></h1>
+      </section>
+
+      <section class="options">
+        <div data-selection="T" data-qid="three">
+          <img src="./assets/face1.jpeg"/>
+          <img class="checkbox" src="./assets/unchecked.png"/>
+        </div>
+
+        <div data-selection="F" data-qid="three">
+          <img src="./assets/face2.jpeg"/>
+          <img class="checkbox" src="./assets/unchecked.png"/>
+        </div>
+      </section>
+
+      <section class="question">
+        <h1>Which is your preferred Bjork <i>landscape?</i></h1>
+      </section>
+
+      <section class="options">
+        <div data-selection="J" data-qid="four">
+          <img src="./assets/landscape1.jpeg"/>
+          <img class="checkbox" src="./assets/unchecked.png"/>
+        </div>
+
+        <div data-selection="P" data-qid="four">
+          <img src="./assets/landscape2.jpeg"/>
+          <img class="checkbox" src="./assets/unchecked.png"/>
+        </div>
+      </section>
+
+      <div class = "overlay" id = "results">
+        <h2 class="overlaytitle" id="title"></h2>
+        <div class="overlaytext" id="text"></div>
+        <div class="overlaybutton" id="submit">Restart quiz</div>
+      </div>
+
+    </article>
+  </body>
+</html>

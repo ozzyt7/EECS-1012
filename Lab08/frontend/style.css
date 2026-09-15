@@ -1,0 +1,113 @@
+/**
+EECS1012: York University
+You should not need to modify this style sheet!
+**/
+article {
+  margin: auto;
+  width: 700px;
+}
+
+.options img.checkbox {
+  margin-top: 5px;
+  height: 50px;
+  width: 50px;
+}
+
+body {
+  color: #222222;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 42px;
+  margin: 18px 0;
+  padding: 20px;
+}
+
+header h1 {
+  color: darkcyan;
+  text-align: center;
+}
+
+.question {
+  align-items: center;
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
+  background-color: cyan;
+}
+
+.question h1 {
+  color: black;
+  font-size: 32px;
+  padding: 10px;
+  max-width: 75%;
+} 
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0px;
+}
+
+.options div {
+  width: 50%;
+  margin: 10px 0px;
+  background-color: #f4f4f4;
+  border: 1px;
+  border-color: #dcdcdc;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.options div img {
+  width: 100%;
+}
+
+/* Styling for the overlay box */
+.overlay {
+  position: fixed; 
+  display: block; 
+  width: 100%; 
+  height: 100%; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); 
+  padding: 10vw;
+  z-index: 2; 
+  cursor: pointer; 
+}
+
+.overlaybutton {
+  padding: 20px;
+  font-size: 18px;
+  background-color: #cecece;
+  color: black;
+  width: 75%;
+}
+
+.overlaytitle {
+  padding: 20px;
+  font-size: 18px;
+  background-color: cyan; 
+  color: black;
+  width: 75%;
+}
+
+.overlaytext {
+  padding: 20px;
+  font-size: 18px;
+  background-color: cyan; 
+  color: black;
+  width: 75%;
+  height: auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
